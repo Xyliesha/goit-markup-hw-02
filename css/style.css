@@ -1,0 +1,26 @@
+body {
+  font-family: Roboto;
+  background-color: #ffffff;
+}
+
+p {
+  color: #757575;
+}
+
+h3 {
+  color: #212121;
+}
+
+.filters-list {
+  cursor: pointer;
+  align-content: center;
+}
+
+button:hover {
+  color: #ffffff;
+}
+
+button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
