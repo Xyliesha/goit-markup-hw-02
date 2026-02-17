@@ -52,7 +52,6 @@
 
 body {
   font-family: "Roboto", Arial, sans-serif;
-  background-color: var(--text);
 }
 
 .section-title-h2 {
@@ -90,6 +89,7 @@ body {
 
 .text-team {
   font-size: 16px;
+  color: var(--main-text);
 }
 
 .portfolio-title-h3 {
