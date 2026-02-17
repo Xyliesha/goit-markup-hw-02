@@ -1,26 +1,45 @@
+.nav:hover {
+  color: #2196f3;
+}
+
+.nav:focus {
+  color: #2196f3;
+}
+
 body {
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
   background-color: #ffffff;
 }
 
-p {
+.text-p {
   color: #757575;
 }
 
-h3 {
+.section-title-h3 {
   color: #212121;
 }
 
-.filters-list {
+.button {
   cursor: pointer;
-  align-content: center;
 }
 
-button:hover {
+.button:hover {
   color: #ffffff;
 }
 
-button:focus {
+.button:focus {
   background-color: #2196f3;
   color: #ffffff;
+}
+
+.footer {
+  color: #757575;
+}
+
+.footer:hover {
+  color: #2196f3;
+}
+
+.footer:focus {
+  color: #2196f3;
 }
