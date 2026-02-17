@@ -1,22 +1,52 @@
-.nav:hover {
-  color: #2196f3;
+:root {
+  --main-text: #757575;
+  --button-fon: #2196f3;
+  --text: #ffffff;
+  --text-headings: #212121;
+  --background-color: #2f303a;
 }
 
-.nav:focus {
-  color: #2196f3;
+.banner {
+  background-color: var(--background-color);
+  color: var(--text);
+}
+
+.banner button {
+  background-color: var(--button-fon);
+  color: var(--text);
+}
+
+.banner button:hover {
+  background-color: var(--background-color);
+}
+
+.nav-link:hover {
+  color: var(--button-fon);
+}
+
+.nav-link:focus {
+  color: var(--button-fon);
+}
+
+.contact {
+  color: var(--main-text);
+}
+
+.contact:hover {
+  color: var(--button-fon);
 }
 
 body {
-  font-family: Roboto, Arial, sans-serif;
-  background-color: #ffffff;
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: var(--text);
 }
 
 .text-p {
-  color: #757575;
+  color: var(--main-text);
 }
 
 .section-title-h3 {
-  color: #212121;
+  color: var(--text-headings);
 }
 
 .button {
@@ -24,22 +54,31 @@ body {
 }
 
 .button:hover {
-  color: #ffffff;
+  color: var(--text);
 }
 
 .button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--button-fon);
+  color: var(--text);
 }
 
 .footer {
-  color: #757575;
+  color: var(--main-text);
+  background-color: var(--background-color);
 }
 
 .footer:hover {
-  color: #2196f3;
+  color: var(--button-fon);
 }
 
 .footer:focus {
-  color: #2196f3;
+  color: var(--button-fon);
+}
+
+.footer-text {
+  color: var(--text);
+}
+
+.footer-text:hover {
+  color: var(--button-fon);
 }
