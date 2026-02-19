@@ -2,6 +2,7 @@
   --main-text: #757575;
   --button-fon: #2196f3;
   --text: #ffffff;
+  --footer-text: #ffffff99;
   --text-headings: #212121;
   --background-color: #2f303a;
   --main-font: "Roboto", sans-serif;
@@ -13,6 +14,7 @@
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
+  color: var(--text-headings);
 }
 
 .logo-web {
@@ -95,9 +97,17 @@ body {
   font-size: 36px;
 }
 
+.section-list {
+  list-style: none;
+}
+
 .section-team {
   color: var(--text-headings);
   font-size: 36px;
+}
+
+.section-team-list {
+  list-style: none;
 }
 
 .section-title-h3 {
@@ -115,6 +125,10 @@ body {
   font-size: 18px;
   line-height: 36px;
   font-weight: 700;
+}
+
+.portfolio-project-list {
+  list-style: none;
 }
 
 .filters-list {
@@ -142,8 +156,10 @@ body {
 }
 
 .footer {
-  color: var(--main-text);
+  color: var(--footer-text);
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
   background-color: var(--background-color);
   text-decoration: none;
 }
@@ -158,8 +174,19 @@ body {
 
 .footer-text {
   color: var(--text);
+  margin: 0;
 }
 
 .footer-text:hover {
   color: var(--button-fon);
+}
+
+.footer-logo {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 3%;
+  color: var(--text);
+  text-decoration: none;
 }
